@@ -126,19 +126,20 @@ body {
         background-color: #382AE1;
         border-radius: 10px;
         box-shadow: 0 10px 18px rgb(172, 172, 202);
-        margin-bottom: 50px;
+        margin-bottom: 35px;
         
 }
 
 .card__panel--texte {
     color: white;
     font-size: 15px;
+    font-weight: 900;
 }
 
 .card__down {
     text-align: center;
     color: #717FA6;
     font-size: 15px;
-   
+    font-weight: 900;
  
 }
