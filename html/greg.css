@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0E8FF;
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    font-family: sans-serif;
+
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    max-height: 437px;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 697px;
+    max-width: 450px;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px; 
+    z-index: 1;
+    overflow: hidden;  
+    box-shadow: 0 20px 18px rgba(88, 82, 139, 0.1);
+}
+
+.card__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom:10px;
+    /* align-items: flex-start; */
+}
+
+.card__texte{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.card__texte--title {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #1F2E55;
+    
+   
+}
+
+.card__texte--description {
+    font-size: 16px;
+    color: #717FA6;
+    font-weight: 500;
+    
+}
+
+.card__bloc {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 354px;
+    background-color: #F7F9FF;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.card__bloc--logo {
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
+    margin-left: 10px;
+   
+}
+
+.card__bloc--section {
+    flex: 1;
+    font-size: 16px;
+    
+}
+
+.card__bloc--title{
+    color: #1F2E55;
+    font-weight: 900;
+    
+   
+}
+
+.card__bloc--desc {
+    color: #717FA6;
+    
+}
+
+.card__bloc--change {
+    color: #382AE1;
+    font-size: 14px;
+    margin-right: 15px;
+    
+    
+}
+
+.card__panel {
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto ;
+        max-width: 354px;
+        max-height: 50px;
+        background-color: #382AE1;
+        border-radius: 10px;
+        box-shadow: 0 10px 18px rgb(172, 172, 202);
+        margin-bottom: 50px;
+        
+}
+
+.card__panel--texte {
+    color: white;
+    font-size: 15px;
+}
+
+.card__down {
+    text-align: center;
+    color: #717FA6;
+    font-size: 15px;
+   
+ 
+}
